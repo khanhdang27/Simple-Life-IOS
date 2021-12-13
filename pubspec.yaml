@@ -1,0 +1,76 @@
+name: baseproject
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^7.0.0
+  equatable: ^2.0.0
+  sqflite: ^2.0.0+3
+  path_provider: ^2.0.1
+  flutter_rating_bar: ^4.0.0
+  dio: ^4.0.0
+  intl: ^0.17.00
+  google_sign_in: ^5.0.3
+  fluttertoast: ^8.0.7
+  shared_preferences: ^2.0.6
+  mask_text_input_formatter: ^2.0.0
+  webview_flutter: ^2.0.10
+  flutter_html:
+  screenshot: ^1.2.3
+  share: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/lang/
+    - assets/images/product-test.png
+    - assets/images/bg.png
+    - assets/images/bglogo.png
+    - assets/images/product_bg.png
+    - assets/images/baby.png
+    - assets/images/beauty.png
+    - assets/images/cosmetic.png
+    - assets/images/heart.png
+    - assets/images/mask.png
+    - assets/images/men.png
+    - assets/images/perfume.png
+    - assets/images/slim.png
+    - assets/images/title_bg.png
+    - assets/images/image_setting.png
+    - assets/images/credit_card.png
+  fonts:
+    - family: AppIcon
+      fonts:
+        - asset: assets/fonts/AppIcon.ttf
+    - family: Century Gothic
+      fonts:
+        - asset: assets/fonts/Century-Gothic-Regular.ttf
+    - family: MADE Tommy Soft
+      fonts:
+        - asset: assets/fonts/MADE-Tommy-Soft-Black.ttf
+        - asset: assets/fonts/MADE-Tommy-Soft-Bold.otf
+        - asset: assets/fonts/MADE-Tommy-Soft-ExtraBold.otf
+        - asset: assets/fonts/MADE-Tommy-Soft-Light.ttf
+        - asset: assets/fonts/MADE-Tommy-Soft-Medium.otf
+        - asset: assets/fonts/MADE-Tommy-Soft-Regular.otf
+        - asset: assets/fonts/MADE-Tommy-Soft-Thin.otf
+    - family: Gen-Jyuu-Gothic-X-Monospace
+      fonts:
+        - asset: assets/fonts/Gen-Jyuu-Gothic-X-Monospace-Bold.ttf
+        - asset: assets/fonts/Gen-Jyuu-Gothic-X-Monospace-Light.ttf
+        - asset: assets/fonts/Gen-Jyuu-Gothic-X-Monospace-Medium.ttf
+        - asset: assets/fonts/Gen-Jyuu-Gothic-X-Monospace-Regular.ttf

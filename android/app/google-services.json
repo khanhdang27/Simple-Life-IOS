@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "221245438366",
+    "project_id": "simplelife-6e78c",
+    "storage_bucket": "simplelife-6e78c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221245438366:android:13e4f3d0e0847103a93e8f",
+        "android_client_info": {
+          "package_name": "com.baseproject.simplylife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221245438366-mqq7chc8cteo1d8i6blasq0h2q41d2oi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baseproject.simplylife",
+            "certificate_hash": "008b9d3d66c24ab05b9354f67afa16a726243b8d"
+          }
+        },
+        {
+          "client_id": "221245438366-jvfhe398gaq52c4r7dis52aqp0s0v75p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxeHe_cd0xoQuGd3uekrkUDX0pISZFqI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221245438366-jvfhe398gaq52c4r7dis52aqp0s0v75p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
